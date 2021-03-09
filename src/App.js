@@ -1,7 +1,8 @@
 function App() {
 	return (
-		<div className="App">
-			<h1>hello</h1>
+		<div id="container">
+			<div id="editorContainer">Hello</div>
+			<div id="previewContainer">Hello</div>
 		</div>
 	);
 }
