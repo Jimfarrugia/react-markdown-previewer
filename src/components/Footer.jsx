@@ -5,13 +5,15 @@ const Footer = () => {
 		<footer>
 			<ul>
 				<li>
-					<a href="#">Markdown Reference</a>
+					<a href="https://commonmark.org/help/">Markdown Reference</a>
 				</li>
 				<li>
-					<a href="#">Source Code</a>
+					<a href="https://github.com/Jimfarrugia/react-markdown-previewer">
+						Source Code
+					</a>
 				</li>
 				<li>
-					<a href="#">Jim Farrugia</a>
+					<a href="https://jimfarrugia.com.au">Jim Farrugia</a>
 				</li>
 			</ul>
 		</footer>
