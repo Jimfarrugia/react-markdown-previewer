@@ -96,6 +96,7 @@ footer li:last-child:after {
 	padding: 5px 15px;
 	width: calc(50vw - 45px);
 	height: calc(70vh - 10px);
+	overflow: auto;
 }
 
 @media (max-width: 770px) {
@@ -138,11 +139,9 @@ footer li:last-child:after {
 	}
 	.input {
 		width: calc(100% - 30px);
-		height: 20vw;
 	}
 
 	.preview {
 		width: calc(100% - 30px);
-		height: auto;
 	}
 }
