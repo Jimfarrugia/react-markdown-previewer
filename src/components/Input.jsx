@@ -1,6 +1,6 @@
 const Input = () => {
 	return (
-		<div class="input">
+		<div className="input">
 			<textarea id="editor">
 				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
 				convallis quis est et mollis. Suspendisse potenti. Sed malesuada

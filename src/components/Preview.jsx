@@ -2,7 +2,7 @@ import React from "react";
 
 const Preview = () => {
 	return (
-		<div id="preview" class="preview">
+		<div id="preview" className="preview">
 			<h2>Preview your Markdown</h2>
 			<p>
 				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer

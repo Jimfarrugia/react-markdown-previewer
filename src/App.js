@@ -5,9 +5,9 @@ import Footer from "./components/Footer";
 
 function App() {
 	return (
-		<div class="container">
+		<div className="container">
 			<Header title="Markdown Previewer" />
-			<div class="grid">
+			<div className="grid">
 				<Input />
 				<Preview />
 			</div>
