@@ -14,7 +14,7 @@ function App() {
 			<Header title="Markdown Previewer" />
 			<div className="grid">
 				<Input content={content} setContent={setContent} />
-				<Preview content={marked(content)} />
+				<Preview content={marked(content, { breaks: true })} />
 			</div>
 			<Footer />
 		</div>
