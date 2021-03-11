@@ -24,21 +24,21 @@ a:hover {
 	text-decoration: underline;
 }
 
-ul {
+footer ul {
 	list-style: none;
 	padding: 0;
 	margin: 1rem 0;
 }
 
-li {
+footer li {
 	display: inline-block;
 }
 
-li:after {
+footer li:after {
 	content: "\00a0\00a0|\00a0\00a0";
 }
 
-li:last-child:after {
+footer li:last-child:after {
 	content: none;
 }
 
@@ -94,16 +94,16 @@ li:last-child:after {
 		min-height: 150px;
 	}
 
-	li {
+	footer li {
 		display: block;
 		margin-bottom: 20px;
 	}
 
-	li:last-child {
+	footer li:last-child {
 		margin-bottom: 0;
 	}
 
-	li:after {
+	footer li:after {
 		content: none;
 	}
 }
