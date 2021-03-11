@@ -1,4 +1,6 @@
+html,
 body {
+	background: #f5f5dc; /* beige */
 	margin: 0;
 	padding: 0;
 	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
@@ -8,26 +10,116 @@ body {
 	-moz-osx-font-smoothing: grayscale;
 }
 
-#container {
-	background: wheat;
-	height: calc(100vh - 20px);
-	width: calc(100vw - 20px);
-	padding: 10px;
+header,
+footer {
+	text-align: center;
+	padding: 1rem;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 1rem 0;
+}
+
+li {
+	display: inline-block;
+}
+
+li:after {
+	content: "\00a0\00a0|\00a0\00a0";
+}
+
+li:last-child:after {
+	content: none;
+}
+
+.grid {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	grid-gap: 10px;
+	padding: 0 10px;
 }
 
-#editorContainer {
-	width: calc(100% - 20px);
-	height: calc(100% - 20px);
+.input {
+	border: 5px solid #4caf50;
+	border-radius: 5px;
+	background: #fff;
 	padding: 10px;
-	background: violet;
+	width: calc(50vw - 45px);
+	height: calc(70vh - 30px);
 }
 
-#previewContainer {
-	width: calc(100% - 20px);
-	height: calc(100% - 20px);
-	padding: 10px;
-	background: tomato;
+.input textarea {
+	height: 100%;
+	width: 100%;
+	border: none;
+	background: none;
+	outline: none;
+	resize: none;
+}
+
+.preview {
+	border-radius: 5px;
+	background: #fff;
+	padding: 5px 15px;
+	width: calc(50vw - 45px);
+	height: calc(70vh - 10px);
+}
+
+@media (max-width: 770px) {
+	.grid {
+		display: block;
+		padding: 0 10px;
+	}
+
+	.input {
+		width: calc(100% - 30px);
+		height: 20vw;
+		min-height: 150px;
+		margin-bottom: 1rem;
+	}
+
+	.preview {
+		width: calc(100% - 30px);
+		height: auto;
+		min-height: 150px;
+	}
+
+	li {
+		display: block;
+		margin-bottom: 20px;
+	}
+
+	li:last-child {
+		margin-bottom: 0;
+	}
+
+	li:after {
+		content: none;
+	}
+}
+
+@media (min-width: 1600px) {
+	.container {
+		width: 1600px;
+		margin: 0 auto;
+	}
+	.input {
+		width: calc(100% - 30px);
+		height: 20vw;
+	}
+
+	.preview {
+		width: calc(100% - 30px);
+		height: auto;
+	}
 }
