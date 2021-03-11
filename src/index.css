@@ -16,6 +16,11 @@ footer {
 	padding: 1rem;
 }
 
+code {
+	background: #eee;
+	padding: 2px 5px;
+}
+
 a {
 	text-decoration: none;
 }
