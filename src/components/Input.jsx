@@ -1,7 +1,7 @@
 const Input = () => {
 	return (
 		<div class="input">
-			<textarea>
+			<textarea id="editor">
 				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
 				convallis quis est et mollis. Suspendisse potenti. Sed malesuada
 				vehicula rutrum. Curabitur hendrerit odio nec vulputate porta. Aliquam
