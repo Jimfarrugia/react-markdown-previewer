@@ -3,6 +3,7 @@ body {
   background: #f5f5dc; /* beige */
   margin: 0;
   padding: 0;
+  line-height: 1.25;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
@@ -26,6 +27,18 @@ header,
 footer {
   text-align: center;
   padding: 1rem;
+}
+
+header {
+  padding: 0.25rem;
+  font-size: 0.5rem;
+  margin-bottom: 1rem;
+  background: linear-gradient(#f5f5dc, #ddd);
+  text-shadow: 0px 0px 2px #fff;
+}
+
+footer {
+  font-size: 0.75rem;
 }
 
 code {
@@ -143,7 +156,7 @@ footer li:last-child:after {
 
   footer li {
     display: block;
-    margin-bottom: 20px;
+    margin-bottom: 1rem;
   }
 
   footer li:last-child {
